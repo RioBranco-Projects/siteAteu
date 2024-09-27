@@ -1,0 +1,73 @@
+.cabecalho {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #626481;
+    height: 80px;
+    width: 1920px;
+}
+.leftside {
+    display: flex;
+    align-items: center;
+}
+.leftside p {
+    color: white;
+}
+.image {
+    width: 150px;
+}
+.midleside {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.midleside .menu img {
+    width: 40px;
+}
+.midleside .lupa img {
+    width: 30px;
+}
+
+.midleside input {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+.midleside .search {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+
+.rightside {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+.rightside .btn1 {
+    padding: 10px 20px;
+    background-color: #3E4F7D;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+.rightside .btn2 {
+    padding: 10px 20px;
+    background-color: #FFB22B;
+    box-shadow: 1px 1px 1px black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+}

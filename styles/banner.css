@@ -1,0 +1,40 @@
+.banner {
+    background-image: url(/assets/ateusfamosos.jpg);
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.813);
+    width: 1000px;
+    top: 100px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    height: 200px;
+    border-radius: 10px;
+}
+.btn2 {
+    padding: 10px 20px;
+    background-color: #3E4F7D;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+.conteudo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.meuscards {
+    margin-top: 50px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+}
